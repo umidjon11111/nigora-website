@@ -1,0 +1,112 @@
+{
+  "nav": {
+    "home": "Home",
+    "products": "Products",
+    "market": "Marketplaces",
+    "about": "About",
+    "contact": "Contact",
+    "customOrder": "Custom Order",
+    "whatsapp": "WhatsApp"
+  },
+  "home": {
+    "badge": "Handcrafted with Love",
+    "title": "SARA SILVERS Jewelry",
+    "subtitle": "Discover handcrafted luxury accessories made with passion and precision",
+    "shopNow": "Shop Now",
+    "customOrder": "Custom Order",
+    "stats": "500+ Happy Customers",
+    "featuredTitle": "Featured",
+    "featuredSubtitle": "Products",
+    "featuredDesc": "Explore our handpicked collection of exquisite jewelry pieces"
+  },
+  "products": {
+    "title": "Products",
+    "subtitle": "Explore the Collection",
+    "all": "All",
+    "categories": {
+      "jewelrySet": "Jewelry Sets",
+      "necklace": "Necklaces",
+      "rings": "Rings",
+      "earrings": "Earrings"
+    },
+
+    "goldPearlSetTitle": "Gold pearl jewelry set",
+    "goldPearlSetDesc": "Elegant handcrafted gold set with pearls",
+
+    "nameNecklaceTitle": "Personalized name necklace",
+    "nameNecklaceDesc": "Custom design with your chosen name",
+
+    "crescentTitle": "Crescent moon silver necklace",
+    "crescentDesc": "Minimal silver pendant with heart charm",
+
+    "longRingsTitle": "Long gold filigree rings",
+    "longRingsDesc": "Traditional handcrafted long ring set",
+
+    "greenPendantTitle": "Large green gemstone pendant",
+    "greenPendantDesc": "Intricate luxury handmade statement necklace",
+
+    "detailedEarringsTitle": "Detailed gold earrings",
+    "detailedEarringsDesc": "Fine filigree craftsmanship",
+
+    "redSetTitle": "Red gemstone gold jewelry set",
+    "redSetDesc": "Matching earrings and necklace with pearls",
+
+    "multiBeadTitle": "Multi-bead gold necklace",
+    "multiBeadDesc": "Colorful beads combined with classic gold"
+  },
+  "market": {
+    "title": "Online Marketplaces",
+    "subtitle": "Available on Leading Platforms",
+    "description": "Discover our handcrafted Suzani and jewelry pieces available on top marketplaces",
+    "visitStore": "Visit Store"
+  },
+  "about": {
+    "badge": "Our Story",
+    "title": "About SARA SILVERS Jewelry",
+    "description": "Every piece is crafted with love, passion, and traditional artistry. We blend Uzbekistan's rich cultural heritage with modern elegance.",
+    "suzaniTitle": "The Art of Suzani",
+    "suzaniDesc": "Suzani is traditional Uzbek embroidery art where every stitch tells a story",
+    "galleryTitle": "Our Work"
+  },
+  "contact": {
+    "title": "Get in Touch",
+    "subtitle": "We're here to help",
+    "info": "Contact Information",
+    "hours": "Business Hours",
+    "hoursValue": "Mon - Fri: 9:00 AM - 6:00 PM",
+    "form": {
+      "name": "Your Name",
+      "phone": "Phone Number",
+      "email": "Email",
+      "message": "Message",
+      "send": "Send Message",
+      "success": "Message sent successfully!",
+      "error": "An error occurred. Please try again."
+    }
+  },
+  "customOrder": {
+    "title": "Create Your",
+    "titleHighlight": "Own Necklace",
+    "subtitle": "Design a unique piece that reflects your personality. Customize every detail to create jewelry as special as you are.",
+    "nameLabel": "Your Name or Text",
+    "namePlaceholder": "Enter name...",
+    "metalLabel": "Metal Type",
+    "gold": "18K Gold",
+    "silver": "925 Silver",
+    "charmLabel": "Add Charm",
+    "heart": "Heart",
+    "moon": "Moon",
+    "star": "Star",
+    "initial": "Initial",
+    "placeOrder": "Place Custom Order"
+  },
+  "testimonials": {
+    "title": "What Our Customers Say",
+    "subtitle": "From Happy Customers"
+  },
+  "footer": {
+    "description": "Handcrafted luxury accessories made with love",
+    "quickLinks": "Quick Links",
+    "followUs": "Follow Us"
+  }
+}

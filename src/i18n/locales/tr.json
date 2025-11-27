@@ -1,0 +1,114 @@
+{
+  "nav": {
+    "home": "Ana Sayfa",
+    "products": "Ürünler",
+    "market": "Pazaryerleri",
+    "about": "Hakkımızda",
+    "contact": "İletişim",
+    "customOrder": "Özel Sipariş",
+    "whatsapp": "WhatsApp"
+  },
+  "home": {
+    "badge": "Sevgiyle El Yapımı",
+    "title": "SARA SILVERS Mücevher",
+    "subtitle": "Tutku ve hassasiyetle yapılmış el yapımı lüks aksesuarları keşfedin",
+    "shopNow": "Alışverişe Başla",
+    "customOrder": "Özel Sipariş",
+    "stats": "500+ Mutlu Müşteri",
+    "featuredTitle": "Öne Çıkan",
+    "featuredSubtitle": "Ürünler",
+    "featuredDesc": "Özenle seçilmiş enfes mücevher koleksiyonumuzu keşfedin"
+  },
+  "products": {
+    "title": "Ürünler",
+    "subtitle": "Koleksiyonu keşfedin",
+    "all": "Tümü",
+    "categories": {
+      "bozFabric": "Boz Kumaş",
+      "adras": "Adras",
+      "silkDoppi": "İpek Döppi",
+      "velvetDoppi": "Kadife Döppi",
+      "wallet": "Cüzdan",
+      "bags": "Çantalar"
+    },
+
+    "goldPearlSetTitle": "Altın inci takı seti",
+    "goldPearlSetDesc": "El işçiliği zarif altın ve inci kombinasyonu",
+
+    "nameNecklaceTitle": "İsimli kolye",
+    "nameNecklaceDesc": "İstediğiniz isimle kişiye özel tasarım",
+
+    "crescentTitle": "Hilal gümüş kolye",
+    "crescentDesc": "Kalpli minimal hilal tasarımı",
+
+    "longRingsTitle": "Uzun altın yüzükler",
+    "longRingsDesc": "Geleneksel işlemeli uzun yüzük seti",
+
+    "greenPendantTitle": "Yeşil taşlı büyük kolye",
+    "greenPendantDesc": "El işçiliği detaylı büyük kolye",
+
+    "detailedEarringsTitle": "Detaylı altın küpeler",
+    "detailedEarringsDesc": "İnce işçilikle hazırlanmış",
+
+    "redSetTitle": "Kırmızı taşlı altın takı seti",
+    "redSetDesc": "İncili ve kırmızı taşlı özel set",
+
+    "multiBeadTitle": "Çok boncuklu altın kolye",
+    "multiBeadDesc": "Renkli boncuklarla zenginleştirilmiş tasarım"
+  },
+  "market": {
+    "title": "Online Pazaryerleri",
+    "subtitle": "Önde Gelen Platformlarda Mevcut",
+    "description": "En iyi pazaryerlerinde bulunan el yapımı Suzani ve mücevher eserlerimizi keşfedin",
+    "visitStore": "Mağazayı Ziyaret Et"
+  },
+  "about": {
+    "badge": "Hikayemiz",
+    "title": "SARA SILVERS Mücevher Hakkında",
+    "description": "Her parça sevgi, tutku ve geleneksel sanatla üretilmiştir. Özbekistan'ın zengin kültürel mirasını modern zarafetle harmanlıyoruz.",
+    "suzaniTitle": "Suzani Sanatı",
+    "suzaniDesc": "Suzani, her dikişin bir hikaye anlattığı geleneksel Özbek nakış sanatıdır",
+    "galleryTitle": "Çalışmalarımız"
+  },
+  "contact": {
+    "title": "İletişime Geçin",
+    "subtitle": "Size yardımcı olmak için buradayız",
+    "info": "İletişim Bilgileri",
+    "hours": "Çalışma Saatleri",
+    "hoursValue": "Pzt - Cum: 09:00 - 18:00",
+    "form": {
+      "name": "Adınız",
+      "phone": "Telefon Numarası",
+      "email": "E-posta",
+      "message": "Mesaj",
+      "send": "Gönder",
+      "success": "Mesaj başarıyla gönderildi!",
+      "error": "Bir hata oluştu. Lütfen tekrar deneyin."
+    }
+  },
+  "customOrder": {
+    "title": "Kendi",
+    "titleHighlight": "Kolyen Yarat",
+    "subtitle": "Kişiliğinizi yansıtan benzersiz bir parça tasarlayın. Sizin kadar özel takılar yaratmak için her ayrıntıyı özelleştirin.",
+    "nameLabel": "Adınız veya Metniniz",
+    "namePlaceholder": "İsim girin...",
+    "metalLabel": "Metal Türü",
+    "gold": "18K Altın",
+    "silver": "925 Gümüş",
+    "charmLabel": "Charm Ekle",
+    "heart": "Kalp",
+    "moon": "Ay",
+    "star": "Yıldız",
+    "initial": "Harf",
+    "placeOrder": "Özel Sipariş Ver"
+  },
+  "testimonials": {
+    "title": "Müşterilerimiz Ne Diyor",
+    "subtitle": "Mutlu Müşterilerden"
+  },
+  "footer": {
+    "description": "Sevgiyle yapılmış el yapımı lüks aksesuarlar",
+    "quickLinks": "Hızlı Bağlantılar",
+    "followUs": "Bizi Takip Edin"
+  }
+}

@@ -1,0 +1,112 @@
+{
+  "nav": {
+    "home": "Bosh sahifa",
+    "products": "Mahsulotlar",
+    "market": "Onlayn do'konlar",
+    "about": "Biz haqimizda",
+    "contact": "Aloqa",
+    "customOrder": "Maxsus buyurtma",
+    "whatsapp": "WhatsApp"
+  },
+  "home": {
+    "badge": "Sevgi bilan qo'lda ishlangan",
+    "title": "SARA SILVERS Jewelry",
+    "subtitle": "Ishtiyoq va aniqlik bilan yaratilgan qo'lda ishlangan hashamatli aksessuarlarni kashf eting",
+    "shopNow": "Xarid qiling",
+    "customOrder": "Maxsus buyurtma",
+    "stats": "500+ Baxtli mijozlar",
+    "featuredTitle": "Tanlangan",
+    "featuredSubtitle": "Mahsulotlar",
+    "featuredDesc": "Eng yaxshi tanlangan zargarlik buyumlari kolleksiyasi"
+  },
+  "products": {
+    "title": "Mahsulotlar",
+    "subtitle": "Kolleksiyani ko‘ring",
+    "all": "Barchasi",
+    "categories": {
+      "jewelrySet": "Taqqinchoq kompletlari",
+      "necklace": "Marjonlar",
+      "rings": "Uzuklar",
+      "earrings": "Sirg'alar"
+    },
+
+    "goldPearlSetTitle": "Oltin marvaridli taqinchoq seti",
+    "goldPearlSetDesc": "Qo‘lda ishlangan marvaridli nafis oltin to‘plam",
+
+    "nameNecklaceTitle": "Ism yozuvli taqinchoq",
+    "nameNecklaceDesc": "O‘zingiz xohlagan ismda elegant dizayn",
+
+    "crescentTitle": "Oy shaklidagi kumush taqinchoq",
+    "crescentDesc": "Kumushdan yasalgan nafis oy va yurak kombinatsiyasi",
+
+    "longRingsTitle": "Uzun oltin uzuklar",
+    "longRingsDesc": "Milliy naqshli uzun ayollar uzugi",
+
+    "greenPendantTitle": "Yashil toshli katta osma",
+    "greenPendantDesc": "Murakkab naqshli hand-made katta ko‘krak taqinchoq",
+
+    "detailedEarringsTitle": "Murakkab bezakli oltin sirg‘alar",
+    "detailedEarringsDesc": "Nozik naqshlar va qo‘l mehnati",
+
+    "redSetTitle": "Qizil toshli oltin taqinchoq seti",
+    "redSetDesc": "Bir-biriga mos kelgan marvarid va qizil toshlar bilan",
+
+    "multiBeadTitle": "Ko‘p marjonli oltin bo‘yin taqinchoq",
+    "multiBeadDesc": "Rangli marjonlar bilan boyitilgan milliy uslub"
+  },
+  "market": {
+    "title": "Onlayn bozorlar",
+    "subtitle": "Yetakchi platformalarda mavjud",
+    "description": "Eng yaxshi bozor joylarida mavjud qo'lda ishlangan suzani va zargarlik buyumlarimizni kashf eting",
+    "visitStore": "Do'konni tashrif buyuring"
+  },
+  "about": {
+    "badge": "Bizning hikoyamiz",
+    "title": "SARA SILVERS Jewelry haqida",
+    "description": "Har bir buyum sevgi, ishtiyoq va an'anaviy hunarmandchilik bilan yaratilgan. Biz O'zbekistonning boy madaniy merosini zamonaviy zarafat bilan birlashtiramiz.",
+    "suzaniTitle": "Suzani san'ati",
+    "suzaniDesc": "Suzani an'anaviy O'zbek kashtachilik san'ati bo'lib, har bir tikuv hikoya aytadi",
+    "galleryTitle": "Bizning ishimiz"
+  },
+  "contact": {
+    "title": "Bog'laning",
+    "subtitle": "Biz sizga yordam berishga tayyormiz",
+    "info": "Aloqa ma'lumotlari",
+    "hours": "Ish vaqti",
+    "hoursValue": "Dush - Juma: 9:00 - 18:00",
+    "form": {
+      "name": "Ismingiz",
+      "phone": "Telefon raqami",
+      "email": "Email",
+      "message": "Xabar",
+      "send": "Yuborish",
+      "success": "Xabaringiz yuborildi!",
+      "error": "Xato yuz berdi. Qaytadan urinib ko'ring."
+    }
+  },
+  "customOrder": {
+    "title": "O'zingizning",
+    "titleHighlight": "Bo'yinbog'ingizni yarating",
+    "subtitle": "Shaxsiyatingizni aks ettiruvchi noyob buyum yarating. Siz kabi maxsus zargarlik yaratish uchun har bir tafsilotni sozlang.",
+    "nameLabel": "Ismingiz yoki matn",
+    "namePlaceholder": "Ismni kiriting...",
+    "metalLabel": "Metal turi",
+    "gold": "18K Oltin",
+    "silver": "925 Kumush",
+    "charmLabel": "Charm qo'shing",
+    "heart": "Yurak",
+    "moon": "Oy",
+    "star": "Yulduz",
+    "initial": "Harflar",
+    "placeOrder": "Maxsus buyurtma berish"
+  },
+  "testimonials": {
+    "title": "Mijozlarimiz aytadi",
+    "subtitle": "Baxtli mijozlardan"
+  },
+  "footer": {
+    "description": "Sevgi bilan yaratilgan qo'lda ishlangan hashamatli aksessuarlar",
+    "quickLinks": "Tezkor havolalar",
+    "followUs": "Bizni kuzating"
+  }
+}

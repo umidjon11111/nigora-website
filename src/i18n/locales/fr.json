@@ -1,0 +1,112 @@
+{
+  "nav": {
+    "home": "Accueil",
+    "products": "Produits",
+    "market": "Places de marché",
+    "about": "À propos",
+    "contact": "Contact",
+    "customOrder": "Commande personnalisée",
+    "whatsapp": "WhatsApp"
+  },
+  "home": {
+    "badge": "Fait main avec amour",
+    "title": "Bijoux SARA SILVERS",
+    "subtitle": "Découvrez des accessoires de luxe faits main avec passion et précision",
+    "shopNow": "Acheter maintenant",
+    "customOrder": "Commande personnalisée",
+    "stats": "500+ Clients satisfaits",
+    "featuredTitle": "En vedette",
+    "featuredSubtitle": "Produits",
+    "featuredDesc": "Explorez notre collection soigneusement sélectionnée de bijoux exquis"
+  },
+  "products": {
+    "title": "Produits",
+    "subtitle": "Explorez la collection",
+    "all": "Tous",
+    "categories": {
+      "jewelrySet": "Ensembles de bijoux",
+      "necklace": "Colliers",
+      "rings": "Bagues",
+      "earrings": "Boucles d’oreilles"
+    },
+
+    "goldPearlSetTitle": "Parure en or avec perles",
+    "goldPearlSetDesc": "Élégante parure artisanale en or décorée de perles",
+
+    "nameNecklaceTitle": "Collier prénom personnalisé",
+    "nameNecklaceDesc": "Design personnalisé avec le prénom de votre choix",
+
+    "crescentTitle": "Collier croissant de lune en argent",
+    "crescentDesc": "Pendentif minimaliste avec un petit cœur",
+
+    "longRingsTitle": "Bagues longues en filigrane doré",
+    "longRingsDesc": "Bagues traditionnelles façonnées à la main",
+
+    "greenPendantTitle": "Grand pendentif doré avec pierre verte",
+    "greenPendantDesc": "Pièce luxueuse artisanale aux détails raffinés",
+
+    "detailedEarringsTitle": "Boucles d’oreilles en or finement travaillées",
+    "detailedEarringsDesc": "Chef-d’œuvre d’artisanat en filigrane",
+
+    "redSetTitle": "Parure en or avec pierres rouges",
+    "redSetDesc": "Ensemble assorti avec perles et pierres rouges",
+
+    "multiBeadTitle": "Collier doré à multiples perles",
+    "multiBeadDesc": "Collier traditionnel enrichi de perles colorées"
+  },
+  "market": {
+    "title": "Places de marché en ligne",
+    "subtitle": "Disponible sur les principales plateformes",
+    "description": "Découvrez nos pièces Suzani et bijoux faits main disponibles sur les meilleures places de marché",
+    "visitStore": "Visiter la boutique"
+  },
+  "about": {
+    "badge": "Notre histoire",
+    "title": "À propos des bijoux SARA SILVERS",
+    "description": "Chaque pièce est fabriquée avec amour, passion et artisanat traditionnel. Nous mélangeons le riche patrimoine culturel de l'Ouzbékistan avec l'élégance moderne.",
+    "suzaniTitle": "L'art du Suzani",
+    "suzaniDesc": "Le Suzani est un art de broderie traditionnel ouzbek où chaque point raconte une histoire",
+    "galleryTitle": "Notre travail"
+  },
+  "contact": {
+    "title": "Contactez-nous",
+    "subtitle": "Nous sommes là pour vous aider",
+    "info": "Coordonnées",
+    "hours": "Heures d'ouverture",
+    "hoursValue": "Lun - Ven: 9h00 - 18h00",
+    "form": {
+      "name": "Votre nom",
+      "phone": "Numéro de téléphone",
+      "email": "Email",
+      "message": "Message",
+      "send": "Envoyer",
+      "success": "Message envoyé avec succès!",
+      "error": "Une erreur s'est produite. Veuillez réessayer."
+    }
+  },
+  "customOrder": {
+    "title": "Créez votre",
+    "titleHighlight": "Propre collier",
+    "subtitle": "Concevez une pièce unique qui reflète votre personnalité. Personnalisez chaque détail pour créer des bijoux aussi spéciaux que vous.",
+    "nameLabel": "Votre nom ou texte",
+    "namePlaceholder": "Entrez le nom...",
+    "metalLabel": "Type de métal",
+    "gold": "Or 18K",
+    "silver": "Argent 925",
+    "charmLabel": "Ajouter un charm",
+    "heart": "Cœur",
+    "moon": "Lune",
+    "star": "Étoile",
+    "initial": "Initiale",
+    "placeOrder": "Passer une commande personnalisée"
+  },
+  "testimonials": {
+    "title": "Ce que disent nos clients",
+    "subtitle": "De clients satisfaits"
+  },
+  "footer": {
+    "description": "Accessoires de luxe faits main avec amour",
+    "quickLinks": "Liens rapides",
+    "followUs": "Suivez-nous"
+  }
+}
