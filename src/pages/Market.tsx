@@ -11,32 +11,32 @@ const Market = () => {
       name: "Uzum",
       logo: "https://images.uzum.uz/cfq8gvjmscrqjmkup05g/original.svg",
       url: "https://uzum.uz",
-      description: "Leading marketplace in Uzbekistan"
+      description: "Leading marketplace in Uzbekistan",
     },
     {
       name: "Ozon",
       logo: "https://cdn1.ozone.ru/s3/fs-common-prod/10000/logo-ozon.svg",
       url: "https://ozon.ru",
-      description: "Russia's largest online retailer"
+      description: "Russia's largest online retailer",
     },
     {
       name: "Yandex Market",
       logo: "https://yastatic.net/s3/home/logos/market-logo.svg",
-      url: "https://market.yandex.ru",
-      description: "Trusted Russian marketplace"
+      url: "https://market.yandex.uz/card/zhenskaya-podveska-luna-i-serdtse-stilnaya-zhenskaya-tsepochka-s-lakonichnoy-podveskoy-v-forme-mesyatsa-i-serdechka/4806961485?businessId=216503443&showOriginalKmEmptyOffer=1&ogV=-7",
+      description: "Trusted Russian marketplace",
     },
     {
       name: "Wildberries",
       logo: "https://static-basket-01.wbbasket.ru/vol0/i/v1/wb_logo_light_ru.svg",
       url: "https://wildberries.ru",
-      description: "Major online fashion retailer"
+      description: "Major online fashion retailer",
     },
   ];
 
   return (
     <div className="min-h-screen bg-background">
       <Navbar />
-      
+
       <main className="pt-32 pb-24">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           {/* Header */}
@@ -70,18 +70,18 @@ const Market = () => {
                       alt={marketplace.name}
                       className="max-h-12 max-w-[180px] object-contain"
                       onError={(e) => {
-                        e.currentTarget.style.display = 'none';
+                        e.currentTarget.style.display = "none";
                         e.currentTarget.parentElement!.innerHTML = `<span class="font-display text-2xl font-bold text-gold">${marketplace.name}</span>`;
                       }}
                     />
                   </div>
                   <ExternalLink className="w-5 h-5 text-muted-foreground group-hover:text-primary transition-smooth" />
                 </div>
-                
+
                 <p className="font-body text-sm text-muted-foreground">
                   {marketplace.description}
                 </p>
-                
+
                 <div className="mt-6 inline-flex items-center gap-2 font-body text-sm font-medium text-primary">
                   {t("market.visitStore")}
                   <ExternalLink className="w-4 h-4" />
