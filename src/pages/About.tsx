@@ -44,18 +44,7 @@ const About = () => {
             </p>
           </div>
 
-          {/* Suzani Art Section */}
-          <div className="bg-gradient-card rounded-3xl p-12 mb-24 animate-slide-up">
-            <div className="max-w-3xl mx-auto text-center space-y-4">
-              <h2 className="font-display text-3xl font-bold text-foreground">
-                {t("about.suzaniTitle")}
-              </h2>
-              <p className="font-body text-lg text-muted-foreground">
-                {t("about.suzaniDesc")}
-              </p>
-            </div>
-          </div>
-          {/* Video Gallery Section */}
+
           {/* Video Carousel */}
           <VideoCarousel />
 
