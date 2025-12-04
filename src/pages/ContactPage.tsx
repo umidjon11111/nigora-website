@@ -9,18 +9,15 @@ const ContactPage = () => {
   return (
     <div className="min-h-screen bg-background">
       <Navbar />
-      
+
       <main className="pt-32 pb-24">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center space-y-4 mb-16 animate-fade-in">
             <h1 className="font-display text-4xl sm:text-5xl font-bold text-foreground">
               {t("contact.title")}
             </h1>
-            <p className="font-body text-lg text-muted-foreground max-w-2xl mx-auto">
-              {t("contact.subtitle")}
-            </p>
           </div>
-          
+
           <Contact />
         </div>
       </main>
