@@ -69,19 +69,26 @@
     "galleryTitle": "Bizning ishimiz"
   },
   "contact": {
-    "title": "Bog'laning",
-    "subtitle": "Biz sizga yordam berishga tayyormiz",
-    "info": "Aloqa ma'lumotlari",
-    "hours": "Ish vaqti",
-    "hoursValue": "Dush - Juma: 9:00 - 18:00",
+    "title": "Aloqa ma'lumotlari",
+    "info": {
+      "phone": "Telefon",
+      "email": "Email",
+      "location": "Manzil"
+    },
     "form": {
-      "name": "Ismingiz",
-      "phone": "Telefon raqami",
+      "name": "Ism",
       "email": "Email",
       "message": "Xabar",
-      "send": "Yuborish",
-      "success": "Xabaringiz yuborildi!",
-      "error": "Xato yuz berdi. Qaytadan urinib ko'ring."
+      "send": "Xabarni yuborish",
+      "placeholder": {
+        "name": "Ismingiz",
+        "email": "emailingiz",
+        "message": "Zargarlik bo‘yicha ehtiyojlaringizni yozing..."
+      }
+    },
+    "alert": {
+      "success": "Muvaffaqiyatli yuborildi! Tez orada aloqaga chiqamiz.",
+      "error": "Xabar yuborishda xatolik. Qayta urinib ko‘ring."
     }
   },
   "customOrder": {
@@ -105,8 +112,20 @@
     "subtitle": "Baxtli mijozlardan"
   },
   "footer": {
-    "description": "Sevgi bilan yaratilgan qo'lda ishlangan hashamatli aksessuarlar",
+    "brand": "SARA SILVERS",
     "quickLinks": "Tezkor havolalar",
-    "followUs": "Bizni kuzating"
+    "links": {
+      "home": "Bosh sahifa",
+      "shop": "Do‘kon",
+      "customOrder": "Buyurtma berish",
+      "contact": "Aloqa"
+    },
+    "followUs": "Bizni kuzating",
+    "copyright": "© 2025 SARA SILVERS Jewelry. Barcha huquqlar himoyalangan. Mehr bilan yaratilgan.",
+    "createdBy": "Yaratgan",
+    "author": "Umidjon"
+  },
+  "Video": {
+    "video": "Video galereya"
   }
 }

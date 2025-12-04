@@ -69,19 +69,26 @@
     "galleryTitle": "Our Work"
   },
   "contact": {
-    "title": "Get in Touch",
-    "subtitle": "We're here to help",
-    "info": "Contact Information",
-    "hours": "Business Hours",
-    "hoursValue": "Mon - Fri: 9:00 AM - 6:00 PM",
+    "title": "Contact Information",
+    "info": {
+      "phone": "Phone",
+      "email": "Email",
+      "location": "Location"
+    },
     "form": {
-      "name": "Your Name",
-      "phone": "Phone Number",
+      "name": "Name",
       "email": "Email",
       "message": "Message",
       "send": "Send Message",
-      "success": "Message sent successfully!",
-      "error": "An error occurred. Please try again."
+      "placeholder": {
+        "name": "Your name",
+        "email": "your@email.com",
+        "message": "Tell us about your jewelry needs..."
+      }
+    },
+    "alert": {
+      "success": "Sent successfully! We will contact you soon.",
+      "error": "Error sending message. Please try again."
     }
   },
   "customOrder": {
@@ -105,8 +112,20 @@
     "subtitle": "From Happy Customers"
   },
   "footer": {
-    "description": "Handcrafted luxury accessories made with love",
+    "brand": "SARA SILVERS",
     "quickLinks": "Quick Links",
-    "followUs": "Follow Us"
+    "links": {
+      "home": "Home",
+      "shop": "Shop",
+      "customOrder": "Custom Order",
+      "contact": "Contact"
+    },
+    "followUs": "Follow Us",
+    "copyright": "© 2025 SARA SILVERS Jewelry. All rights reserved. Crafted with love.",
+    "createdBy": "Created by",
+    "author": "Umidjon"
+  },
+  "Video":{
+    "video":"Video Gallery"
   }
 }

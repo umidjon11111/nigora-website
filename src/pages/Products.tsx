@@ -38,56 +38,56 @@ const Products = () => {
       image: goldPearlSet,
       title: t("products.goldPearlSetTitle"),
       description: t("products.goldPearlSetDesc"),
-      price: "250.000 ming",
+      price: "250.000 so'm",
       category: "jewelrySet", // ✔ Komplet
     },
     {
       image: nameNecklaceMariam,
       title: t("products.nameNecklaceTitle"),
       description: t("products.nameNecklaceDesc"),
-      price: "1.500.000 ming",
+      price: "1.500.000 so'm",
       category: "necklace", // ✔ Marjon
     },
     {
       image: crescentHeartNecklace,
       title: t("products.crescentTitle"),
       description: t("products.crescentDesc"),
-      price: "1.100.000 ming",
+      price: "1.100.000 so'm",
       category: "necklace", // ✔ Pendant / Marjon
     },
     {
       image: goldLongRings,
       title: t("products.longRingsTitle"),
       description: t("products.longRingsDesc"),
-      price: "1.200.000 ming",
+      price: "1.200.000 so'm",
       category: "rings", // ✔ Uzuklar
     },
     {
       image: goldGreenLargePendant,
       title: t("products.greenPendantTitle"),
       description: t("products.greenPendantDesc"),
-      price: "1.500.000 ming",
+      price: "1.500.000 so'm",
       category: "necklace", // ✔ Pendant
     },
     {
       image: goldDetailedEarrings,
       title: t("products.detailedEarringsTitle"),
       description: t("products.detailedEarringsDesc"),
-      price: "1.800.000 ming",
+      price: "1.800.000 so'm",
       category: "earrings", // ✔ Sirg'alar
     },
     {
       image: goldRedSet,
       title: t("products.redSetTitle"),
       description: t("products.redSetDesc"),
-      price: "450.000 ming",
+      price: "450.000 so'm",
       category: "jewelrySet", // ✔ To‘liq set
     },
     {
       image: goldMultiBeadNecklace,
       title: t("products.multiBeadTitle"),
       description: t("products.multiBeadDesc"),
-      price: "450.000 ming",
+      price: "450.000 so'm",
       category: "necklace", // ✔ Marjon
     },
   ];

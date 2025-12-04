@@ -9,18 +9,18 @@ import { useCallback } from "react";
 const Contact = () => {
   const { t } = useTranslation();
 
-  // 🔥 TELEGRAM BOT ULANISHI
   const botToken = "8071924850:AAGLUt-Di2Mo9cM18YxKfUMb6nIiPVDWYqM";
   const chatId = "6052648076";
 
-  const handleSubmit = useCallback((e) => {
-    e.preventDefault();
+  const handleSubmit = useCallback(
+    (e) => {
+      e.preventDefault();
 
-    const name = e.target["contact-name"].value;
-    const email = e.target["contact-email"].value;
-    const message = e.target["contact-message"].value;
+      const name = e.target["contact-name"].value;
+      const email = e.target["contact-email"].value;
+      const message = e.target["contact-message"].value;
 
-    const text = `
+      const text = `
 📩 *Yangi Murojaat*
 ━━━━━━━━━━━━━━
 👤 *Ism:* ${name}
@@ -29,23 +29,25 @@ const Contact = () => {
 ━━━━━━━━━━━━━━
     `;
 
-    fetch(`https://api.telegram.org/bot${botToken}/sendMessage`, {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({
-        chat_id: chatId,
-        text: text,
-        parse_mode: "Markdown",
-      }),
-    })
-      .then(() => {
-        alert("Muvaffaqiyatli yuborildi! Biz tez orada aloqaga chiqamiz.");
-        e.target.reset();
+      fetch(`https://api.telegram.org/bot${botToken}/sendMessage`, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          chat_id: chatId,
+          text,
+          parse_mode: "Markdown",
+        }),
       })
-      .catch(() => {
-        alert("Xabar jo'natishda xatolik yuz berdi. Qaytadan urinib ko'ring.");
-      });
-  }, []);
+        .then(() => {
+          alert(t("contact.alert.success"));
+          e.target.reset();
+        })
+        .catch(() => {
+          alert(t("contact.alert.error"));
+        });
+    },
+    [t]
+  );
 
   return (
     <section id="contact" className="py-24 gradient-hero">
@@ -56,7 +58,7 @@ const Contact = () => {
             <div className="space-y-8 animate-slide-up">
               <div className="bg-card rounded-2xl shadow-card p-8">
                 <h3 className="font-display text-2xl font-semibold mb-6 text-foreground">
-                  Contact Information
+                  {t("contact.title")}
                 </h3>
 
                 <div className="space-y-6">
@@ -67,7 +69,7 @@ const Contact = () => {
                     </div>
                     <div>
                       <p className="font-body font-medium text-foreground">
-                        Phone
+                        {t("contact.info.phone")}
                       </p>
                       <p className="font-body text-muted-foreground">
                         +998 99-702-22-20
@@ -82,7 +84,7 @@ const Contact = () => {
                     </div>
                     <div>
                       <p className="font-body font-medium text-foreground">
-                        Email
+                        {t("contact.info.email")}
                       </p>
                       <p className="font-body text-muted-foreground">
                         nigora925@gmail.com
@@ -90,7 +92,7 @@ const Contact = () => {
                     </div>
                   </div>
 
-                  {/* Location + Map */}
+                  {/* Location */}
                   <div className="flex items-start space-x-4">
                     <div className="w-12 h-12 rounded-full gradient-gold flex items-center justify-center flex-shrink-0">
                       <MapPin className="w-5 h-5 text-white" />
@@ -98,7 +100,7 @@ const Contact = () => {
 
                     <div className="w-full">
                       <p className="font-body font-medium text-foreground">
-                        Location
+                        {t("contact.info.location")}
                       </p>
                       <p className="font-body text-muted-foreground mb-3">
                         Bukhara, Uzbekistan
@@ -129,11 +131,11 @@ const Contact = () => {
                     htmlFor="contact-name"
                     className="font-body text-base font-medium"
                   >
-                    Name
+                    {t("contact.form.name")}
                   </Label>
                   <Input
                     id="contact-name"
-                    placeholder="Your name"
+                    placeholder={t("contact.form.placeholder.name")}
                     className="h-12 rounded-xl border-2 font-body"
                     required
                   />
@@ -145,12 +147,12 @@ const Contact = () => {
                     htmlFor="contact-email"
                     className="font-body text-base font-medium"
                   >
-                    Email
+                    {t("contact.form.email")}
                   </Label>
                   <Input
                     id="contact-email"
                     type="email"
-                    placeholder="your@email.com"
+                    placeholder={t("contact.form.placeholder.email")}
                     className="h-12 rounded-xl border-2 font-body"
                     required
                   />
@@ -162,11 +164,11 @@ const Contact = () => {
                     htmlFor="contact-message"
                     className="font-body text-base font-medium"
                   >
-                    Message
+                    {t("contact.form.message")}
                   </Label>
                   <Textarea
                     id="contact-message"
-                    placeholder="Tell us about your jewelry needs..."
+                    placeholder={t("contact.form.placeholder.message")}
                     rows={5}
                     className="rounded-xl border-2 font-body resize-none"
                     required
@@ -179,7 +181,7 @@ const Contact = () => {
                   size="lg"
                   className="w-full gradient-gold text-white shadow-elegant hover:scale-105 transition-smooth text-base py-6 rounded-xl"
                 >
-                  Send Message
+                  {t("contact.form.send")}
                 </Button>
               </form>
             </div>

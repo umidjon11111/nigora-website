@@ -72,19 +72,20 @@
   },
   "contact": {
     "title": "İletişime Geçin",
-    "subtitle": "Size yardımcı olmak için buradayız",
-    "info": "İletişim Bilgileri",
-    "hours": "Çalışma Saatleri",
-    "hoursValue": "Pzt - Cum: 09:00 - 18:00",
+    "subtitle": "Herhangi bir sorunuz veya özel istekleriniz için bizimle bağlantı kurun.",
     "form": {
       "name": "Adınız",
-      "phone": "Telefon Numarası",
       "email": "E-posta",
-      "message": "Mesaj",
-      "send": "Gönder",
-      "success": "Mesaj başarıyla gönderildi!",
-      "error": "Bir hata oluştu. Lütfen tekrar deneyin."
-    }
+      "message": "Mesajınız",
+      "send": "Gönder"
+    },
+    "info": {
+      "address": "Adres",
+      "phone": "Telefon",
+      "email": "E-posta"
+    },
+    "success": "Mesajınız başarıyla gönderildi!",
+    "error": "Bir hata oluştu. Lütfen tekrar deneyin."
   },
   "customOrder": {
     "title": "Kendi",
@@ -107,8 +108,20 @@
     "subtitle": "Mutlu Müşterilerden"
   },
   "footer": {
-    "description": "Sevgiyle yapılmış el yapımı lüks aksesuarlar",
+    "brand": "SARA SILVERS",
     "quickLinks": "Hızlı Bağlantılar",
-    "followUs": "Bizi Takip Edin"
+    "links": {
+      "home": "Ana Sayfa",
+      "shop": "Mağaza",
+      "customOrder": "Özel Sipariş",
+      "contact": "İletişim"
+    },
+    "followUs": "Bizi Takip Edin",
+    "copyright": "© 2025 SARA SILVERS Jewelry. Tüm hakları saklıdır. Sevgiyle hazırlandı.",
+    "createdBy": "Oluşturan",
+    "author": "Umidjon"
+  },
+  "Video": {
+    "video": "Video Galeri"
   }
 }

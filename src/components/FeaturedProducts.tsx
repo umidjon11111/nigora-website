@@ -7,7 +7,7 @@ import moonNecklace from "@/assets/product-moon-necklace.jpg";
 
 const FeaturedProducts = () => {
   const { t } = useTranslation();
-  
+
   const products = [
     {
       image: goldNecklace,
@@ -41,7 +41,8 @@ const FeaturedProducts = () => {
         {/* Section Header */}
         <div className="text-center space-y-4 mb-16 animate-fade-in">
           <h2 className="font-display text-4xl sm:text-5xl font-bold text-foreground">
-            {t("home.featuredTitle")} <span className="text-gold">{t("home.featuredSubtitle")}</span>
+            {t("home.featuredTitle")}{" "}
+            <span className="text-gold">{t("home.featuredSubtitle")}</span>
           </h2>
           <p className="font-body text-lg text-muted-foreground max-w-2xl mx-auto">
             {t("home.featuredDesc")}
@@ -51,16 +52,15 @@ const FeaturedProducts = () => {
         {/* Products Grid */}
         <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-8">
           {products.map((product, index) => (
-            <ProductCard
-              key={product.title}
-              {...product}
-              delay={index * 0.1}
-            />
+            <ProductCard key={product.title} {...product} delay={index * 0.1} />
           ))}
         </div>
 
         {/* View All Button */}
-        <div className="text-center mt-12 animate-fade-in" style={{ animationDelay: "0.5s" }}>
+        <div
+          className="text-center mt-12 animate-fade-in"
+          style={{ animationDelay: "0.5s" }}
+        >
           <button className="font-body text-primary hover:text-primary/80 font-medium inline-flex items-center transition-smooth group">
             View All Products
             <svg
@@ -69,7 +69,12 @@ const FeaturedProducts = () => {
               stroke="currentColor"
               viewBox="0 0 24 24"
             >
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth={2}
+                d="M17 8l4 4m0 0l-4 4m4-4H3"
+              />
             </svg>
           </button>
         </div>

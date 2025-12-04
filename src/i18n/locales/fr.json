@@ -69,19 +69,26 @@
     "galleryTitle": "Notre travail"
   },
   "contact": {
-    "title": "Contactez-nous",
-    "subtitle": "Nous sommes là pour vous aider",
-    "info": "Coordonnées",
-    "hours": "Heures d'ouverture",
-    "hoursValue": "Lun - Ven: 9h00 - 18h00",
+    "title": "Informations de contact",
+    "info": {
+      "phone": "Téléphone",
+      "email": "Email",
+      "location": "Adresse"
+    },
     "form": {
-      "name": "Votre nom",
-      "phone": "Numéro de téléphone",
+      "name": "Nom",
       "email": "Email",
       "message": "Message",
-      "send": "Envoyer",
-      "success": "Message envoyé avec succès!",
-      "error": "Une erreur s'est produite. Veuillez réessayer."
+      "send": "Envoyer le message",
+      "placeholder": {
+        "name": "Votre nom",
+        "email": "votre@email.com",
+        "message": "Parlez-nous de vos besoins en bijoux..."
+      }
+    },
+    "alert": {
+      "success": "Envoyé avec succès ! Nous vous contacterons bientôt.",
+      "error": "Erreur d’envoi. Veuillez réessayer."
     }
   },
   "customOrder": {
@@ -105,8 +112,20 @@
     "subtitle": "De clients satisfaits"
   },
   "footer": {
-    "description": "Accessoires de luxe faits main avec amour",
+    "brand": "SARA SILVERS",
     "quickLinks": "Liens rapides",
-    "followUs": "Suivez-nous"
+    "links": {
+      "home": "Accueil",
+      "shop": "Boutique",
+      "customOrder": "Commande personnalisée",
+      "contact": "Contact"
+    },
+    "followUs": "Suivez-nous",
+    "copyright": "© 2025 SARA SILVERS Jewelry. Tous droits réservés. Créé avec amour.",
+    "createdBy": "Créé par",
+    "author": "Umidjon"
+  },
+  "Video": {
+    "video": "Galerie Vidéo"
   }
 }

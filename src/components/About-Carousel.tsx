@@ -2,14 +2,15 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/autoplay";
+import { useTranslation } from "react-i18next";
 
 const VideoCarousel = () => {
   const videos = [1, 2, 3, 4, 5, 6, 7];
-
+  const { t } = useTranslation();
   return (
     <div className="space-y-8 mt-24 mb-10">
       <h2 className="font-display text-3xl font-bold text-foreground text-center">
-        Video Gallery
+        {t("Video.video")}
       </h2>
 
       <Swiper

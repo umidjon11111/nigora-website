@@ -44,7 +44,6 @@ const About = () => {
             </p>
           </div>
 
-
           {/* Video Carousel */}
           <VideoCarousel />
 

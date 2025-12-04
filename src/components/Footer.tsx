@@ -1,6 +1,16 @@
 import { Instagram, MessageCircle } from "lucide-react";
+import { useTranslation } from "react-i18next";
 
 const Footer = () => {
+  const { t } = useTranslation();
+
+  const links = [
+    { key: "home", href: "#home" },
+    { key: "shop", href: "#shop" },
+    { key: "customOrder", href: "#customorder" },
+    { key: "contact", href: "#contact" },
+  ];
+
   return (
     <footer className="bg-deep-black text-cream py-12">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
@@ -8,23 +18,23 @@ const Footer = () => {
           {/* Brand */}
           <div className="space-y-4">
             <h3 className="font-display text-2xl font-bold text-gold">
-              SARA SILVERS
+              {t("footer.brand")}
             </h3>
           </div>
 
           {/* Quick Links */}
           <div className="space-y-4">
             <h4 className="font-display text-lg font-semibold text-gold">
-              Quick Links
+              {t("footer.quickLinks")}
             </h4>
             <ul className="space-y-2">
-              {["Home", "Shop", "Custom Order", "Contact"].map((link) => (
-                <li key={link}>
+              {links.map((item) => (
+                <li key={item.key}>
                   <a
-                    href={`#${link.toLowerCase().replace(" ", "")}`}
+                    href={item.href}
                     className="font-body text-sm text-cream/80 hover:text-gold transition-smooth"
                   >
-                    {link}
+                    {t(`footer.links.${item.key}`)}
                   </a>
                 </li>
               ))}
@@ -34,7 +44,7 @@ const Footer = () => {
           {/* Social Media */}
           <div className="space-y-4">
             <h4 className="font-display text-lg font-semibold text-gold">
-              Follow Us
+              {t("footer.followUs")}
             </h4>
             <div className="flex items-center space-x-4">
               <a
@@ -58,19 +68,20 @@ const Footer = () => {
           </div>
         </div>
 
+        {/* Bottom Section */}
         <div className="border-t border-cream/20 pt-8 text-center">
           <p className="font-body text-sm text-cream/60">
-            © 2025 SARA SILVERS Jewelry. All rights reserved. Crafted with love.
+            {t("footer.copyright")}
           </p>
           <p>
-            Created by{" "}
+            {t("footer.createdBy")}{" "}
             <a
               href="https://umidjon.dev"
               target="_blank"
               rel="noopener noreferrer"
               className="text-gold"
             >
-              Umidjon
+              {t("footer.author")}
             </a>
           </p>
         </div>
