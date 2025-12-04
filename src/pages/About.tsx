@@ -3,11 +3,13 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import { Badge } from "@/components/ui/badge";
 
-import heroImage from "@/assets/hero-jewelry.jpg";
-import goldNecklace from "@/assets/product-gold-necklace.jpg";
-import pearlSet from "@/assets/product-pearl-set.jpg";
-import nameNecklace from "@/assets/product-name-necklace.jpg";
-import moonNecklace from "@/assets/product-moon-necklace.jpg";
+import heroImage from "@/assets/images/1.png";
+import goldNecklace from "@/assets/images/2.jpg";
+import pearlSet from "@/assets/images/3.jpg";
+import nameNecklace from "@/assets/images/4.png";
+import moonNecklace from "@/assets/images/6.png";
+import heroImage2 from "@/assets/images/7.png";
+
 import VideoCarousel from "@/components/About-Carousel";
 
 const About = () => {
@@ -19,7 +21,7 @@ const About = () => {
     pearlSet,
     nameNecklace,
     moonNecklace,
-    heroImage,
+    heroImage2,
   ];
 
   return (
