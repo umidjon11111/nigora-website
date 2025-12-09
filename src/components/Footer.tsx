@@ -77,6 +77,9 @@ const Footer = () => {
           </div>
         </div>
 
+        
+
+        
         {/* Bottom Section */}
         <div className="border-t border-cream/20 pt-8 text-center">
           <p className="font-body text-sm text-cream/60">
