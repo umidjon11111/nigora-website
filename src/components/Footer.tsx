@@ -43,9 +43,10 @@ const Footer = () => {
 
           {/* Social Media */}
           <div className="space-y-4">
-           <h4 className="font-display text-lg font-black text-gold">
+       <h4 className="font-display text-lg font-black text-gold uppercase">
   {t("footer.followUs")}
 </h4>
+
 
             <div className="flex items-center space-x-4">
               <a
