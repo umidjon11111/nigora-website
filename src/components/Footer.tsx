@@ -43,9 +43,10 @@ const Footer = () => {
 
           {/* Social Media */}
           <div className="space-y-4">
-            <h4 className="font-display text-lg font-bold text-gold">
-              {t("footer.followUs")}
-            </h4>
+           <h4 className="font-display text-lg font-black text-gold">
+  {t("footer.followUs")}
+</h4>
+
             <div className="flex items-center space-x-4">
               <a
                 href="https://instagram.com/sara_silvers925"
